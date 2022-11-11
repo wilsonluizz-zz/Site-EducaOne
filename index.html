@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!-- inicio cabeçalho -->
+    <div id="fundo-amarelo"">
+        <div class="container  d-flex p-2">
+            <div class="d-none d-md-block">
+                <img src="./img/pin.svg" alt="">
+                Rua Hitor Penteado, 1200 - São Paulo
+            </div>
+            <div class="ms-lg-5 d-none d-lg-block">
+                <img src="./img/letter.svg" alt="">
+                contato@educacaoone.com.br
+            </div>
+            <div class="mx-auto ms-md-auto me-md-0">
+                <!-- mx-auto cetraliza os itens na tela  -->
+                <img src="./img/facebook.svg" alt="Logo febook">
+                <img src="./img/pinterest.svg" alt="Logo Pinterest">
+                <img src="./img/twitter.svg" alt="Logo Twitter">
+                <img src="./img/instagram.svg" alt="Logo Instagram">
+            </div>
+        </div>
+
+    </div>
+    <!-- fim do cabeçalho  -->
+        <!-- inicio da barra de navegação -->
+        <nav id="menu" class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand ms-2" href="#">
+                <img id="logomenu" src="img/logo.svg" alt="">
+                EducaOne</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item mx-lg-2 mx-xl-4">
+                    <a class="nav-link active" aria-current="page" href="#">Início</a>
+                  </li>
+                  <li class="nav-item mx-lg-2 mx-xl-4">
+                    <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+                  </li>
+                  <li class="nav-item mx-lg-2 mx-xl-4">
+                    <a class="nav-link active" aria-current="page" href="#">Cursos</a>
+                  </li>
+                  <li class="nav-item mx-lg-2 mx-xl-4">
+                    <a class="nav-link active" aria-current="page" href="#">Contato</a>
+                  </li>
+                </ul>
+                <div>
+                    <button type="button" class="btn botao-amarelo me-3">Cadastre-se</button>
+                    <button type="button" class="btn btn-info"><img src="img/search.svg" alt=""></button>
+      
+                </div>
+              </div>
+            </div>
+        </nav>
+        <!-- fim da barra de nevegação -->
+        <!-- inicio section 1 -->
+        <section id="secao1">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7 mt-3 align-self-center ms-md-auto">
+                <h5>Torne-se um mestre</h5>
+                <h1>
+                  Aprenda novas habilidades <br>
+                  Encontre os melhores cursos
+                </h1>
+                <div class="mt-4 mb-5">
+                  <button class="btn botao-amarelo px-4 py-2">Contrate Agora</button>
+                  <button class="btn btn-info px-4 py-2">Saiba mais</button>
+                </div>
+              </div>
+              <div class="col-lg-5 d-none d-lg-block">
+                <img class="img-fluid my-5" src="img/banner.svg" alt="imagem banner principal">
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- fim da section1 -->
+        <!-- inicio do banner azul -->
+        <section class="bg-half-light">
+          <div class="container p-3" id="container-banner">
+            <div class="row align-items-center">
+              <div class="col-2 d-none d-md-block">
+                <img class="img-fluid" src="img/success.svg" alt="imagem banner azul">
+              </div>
+              <div class="col-6 col-md-5">
+                <p class="h1">Próximo curso <span id="python">Python <br> básico</span>!</p class="h1">
+              </div>
+              <div class="col-6 col-md-5">
+                <div class="row g-0 align-items-center text-center">
+                  <div class="col">
+                    <h3 class="texto-grande">11</h3>
+                    <div class="texto-pequeno">dias</div>
+                  </div>
+                  <div class="col-1 fs-4 mb-3">:</div>
+                  <div class="col">
+                    <h3 class="texto-grande">2</h3>
+                    <div class="texto-pequeno">horas</div>
+                  </div>
+                  <div class="col-1 fs-4 mb-3">:</div>
+                  <div class="col">
+                    <h3 class="texto-grande">45</h3>
+                    <div class="texto-pequeno">minuos</div>
+                  </div>
+                  <div class="col-1 fs-4 mb-3">:</div>
+                  <div class="col">
+                    <h3 class="texto-grande">21</h3>
+                    <div class="texto-pequeno">segundos</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- fim do banner azul -->
+        <!-- inicio cursos em destaque -->
+        <section>
+          <div class="container mb-5">
+            <div class="col-12 text-center mt-5">
+              <h1>Cursos em destaque</h1>
+            </div>
+            <div class="row">
+              <div class="col col-md-3 col-lg-4">
+                <div class="card my-3">
+                  <img class="card-img-top" src="img/curso01.svg" alt="Imagem curso ux-desing">
+                  <div class="card-body">
+                    <div class="card-title">Design de esperiência do usuário</div>
+                    <div class="card-text">UI/UX School</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-md-3 col-lg-4">
+                <div class="card my-3">
+                  <img class="card-img-top" src="img/curso02.svg" alt="Imagem curso ux-desing">
+                  <div class="card-body">
+                    <div class="card-title">Abobe XD - Prototipação</div>
+                    <div class="card-text">Adobe</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-md-3 col-lg-4">
+                <div class="card my-3">
+                  <img class="card-img-top" src="img/curso03.svg" alt="Imagem curso ux-desing">
+                  <div class="card-body">
+                    <div class="card-title">UX e UI</div>
+                    <div class="card-text">PUC Univertity</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-md-3 col-lg-4">
+                <div class="card my-3">
+                  <img class="card-img-top" src="img/curso04.svg" alt="Imagem curso ux-desing">
+                  <div class="card-body">
+                    <div class="card-title">UX aplicado na construção de aplicativos</div>
+                    <div class="card-text">UI/UX School</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-md-3 col-lg-4">
+                <div class="card my-3">
+                  <img class="card-img-top" src="img/curso05.svg" alt="Imagem curso ux-desing">
+                  <div class="card-body">
+                    <div class="card-title">Pense novamente: Como entender os argumentos que convencem</div>
+                    <div class="card-text">Comunication Academy</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-md-3 col-lg-4">
+                <div class="card my-3">
+                  <img class="card-img-top" src="img/curso06.svg" alt="Imagem curso ux-desing">
+                  <div class="card-body">
+                    <div class="card-title">Desenvolvimento de aplicativos - Android</div>
+                    <div class="card-text">Developer School</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-md-3 col-lg-4">
+                <div class="card my-3">
+                  <img class="card-img-top" src="img/curso07.svg" alt="Imagem curso ux-desing">
+                  <div class="card-body">
+                    <div class="card-title">Aprenda a estudar programação </div>
+                    <div class="card-text">Developer School</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-md-3 col-lg-4">
+                <div class="card my-3">
+                  <img class="card-img-top" src="img/curso08.svg" alt="Imagem curso ux-desing">
+                  <div class="card-body">
+                    <div class="card-title">Logica de programação</div>
+                    <div class="card-text">Developer School</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-md-3 col-lg-4">
+                <div class="card my-3">
+                  <img class="card-img-top" src="img/curso09.svg" alt="Imagem curso ux-desing">
+                  <div class="card-body">
+                    <div class="card-title">Logomarcas inovadoras</div>
+                    <div class="card-text">Adobe</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- fim cursos em destaque -->
+        <!-- inicio feedback do aluno -->
+        <section class="my-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-6 position-relative">
+                <img class="img-fluid position-absolute top-0" id="aluna-topo" src="img/aluno01-top.svg" alt="" >
+
+                <img id="imagem-aluna" class="img-fluid" src="img/aluno01.svg" alt=" foto da aluna">
+                <div id="info-aluna" class="card text-center mx-5">
+                  <div class="card-body p-0 px-2 my-1">
+                    <h5 class="card-title">Juliana Rodrigues</h5>
+                    <p class="card-text">Design junior</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <h1>Feedback do <span id="dep-aluno" >aluno</span></h1>
+                <p id="texto-aluna">
+                  Faça cursos com os melhores instrutores e <br>
+                  universidades do mundo. Os cursos incluem <br>
+                  tarefas gravadas com avaliações automática e <br>
+                  revisadas por pares, palestras em vídeo e <br>
+                  fóruns de discussão da comunidade. Ao <br>
+                  concluir o curso, você estará qualificado para <br>
+                  receber um Certificado de curso eletrônico <br>
+                  compartilhável por uma pequena taxa.
+                </p>
+                <h6>Ocurso que Juliane Rodrigues fez</h6>
+                <div class="card" id="fedback-aluno">
+                  <div class="row mt">
+                    <div class="col-4">
+                      <img class="img-fluid d-none d-md-block" src="img/curso09.svg" alt="">
+                    </div>
+                    <div class="col-8">
+                      <h6 id="titulo-card-juliana" class="card-title">Arte moderna, contemporânea e Desing</h6>
+                      <p  id="texto-card-juli" class="card-text">Museu de arte moderna</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- fim feedback do aluno -->
+        <!-- inicio numeros -->
+        <section class="my-5 bg-light py-5">
+          <div class="container img-map">
+            <div class="row row-cols-md-4 text-center">
+              <div class="col">
+                <img class="img-fluid"  src="img/thumb-cursos.svg" alt="">
+                <div class="texto-azul fs-1">768</div>
+                <div class="font-numeros">Cursos</div>
+              </div>
+              <div class="col">
+                <img class="img-fluid" src="img/thumb-professores.svg" alt="">
+                <div class="texto-azul fs-1">123</div>
+                <div class="font-numeros">Professores</div>
+              </div>
+              <div class="col">
+                <img class="img-fluid" src="img/thumb-estudantes.svg" alt="">
+                <div class="texto-azul fs-1">8,300</div>
+                <div class="font-numeros">Estudantes</div>
+              </div>
+              <div class="col">
+                <img class="img-fluid" src="img/thumb-premios.svg" alt="">
+                <div class="texto-azul fs-1">32</div>
+                <div class="font-numeros">Prêmios</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- fim section numeros -->
+        <!-- inicio section contato -->
+        <section class="my-5">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-5">
+                <img class="img-fluid px-5" src="img/Recruiting.svg" alt="">
+              </div>
+              <div class="col-7">
+                <h5 class="texto-amarelo">Inscreva-se agora</h5>
+                <h1 id="tit-form">Receba nossa newsletter</h1>
+                <img src="img/letter.svg" alt="">
+                <input id="input-contato" class="" type="email" placeholder="Digite seu E-mail">
+                <button class="btn botao-amarelo" type="submit">Inscreva-se agora</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- fim section contato -->
+        <!-- inicio rodape -->
+        <footer >
+          <div class="container">
+            <div class="row py-5 row-cols-1 row-cols-md-2">
+                <div class="col-6">
+                  <div class="py-3">
+                    <img src="img/logo-white.svg" alt="logo livro branco">
+                    EducaOne
+                  </div>
+                  <div class="py-3">
+                    <img src="img/map-white.svg" alt="icone mapa branco">
+                    Rua Heitor Penteado 1200 - São Paulo
+                  </div>
+                  <div class="py-3">
+                    <img src="img/letter-white.svg" alt="">
+                    contato@educaone.com.br
+                  </div>
+                  <div>
+                    <img src="img/phone-white.svg" alt="">
+                    (11) 33925-1195
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col">
+                      <h5 class="fs-6 fw-bold">Comunicade</h5>
+                      <ul class="list-unstyled">
+                        <li>Alunos</li>
+                        <li>Parceiros</li>
+                        <li>Desenvolvedores</li>
+                        <li>Testadores</li>
+                        <li>Tradutores</li>
+                        <li>Blogs</li>
+                        <li>Tech-Blog</li>
+                        <li>Central de treinamento</li>
+                      </ul>
+                    </div>
+                    <div class="col">
+                      <h5 class="fs-6 fw-bold">Informação</h5>
+                      <ul class="list-unstyled">
+                        <li>Sobre</li>
+                        <li>Preço</li>
+                        <li>Carreira</li>
+                        <li>Contato</li>
+                      </ul>
+                    </div>
+                    <div class="col">
+                      <h5 class="fs-6 fw-bold">Mais</h5>
+                      <ul class="list-unstyled">
+                        <li>Editora</li>
+                        <li>Investidores</li>
+                        <li>Termos</li>
+                        <li>Privacidade</li>
+                        <li>Ajuda</li>
+                        <li>Acessibilidade</li>
+                        <li>Contato</li>
+                        <li>Artigo</li>
+                        <li>Afiliados</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="col-12 p-4 bg-warning">
+                 <div class="d-flex justify-content-between">
+                   <span id="span-footer">&copy; Todos os direitos reservados 2022 EducaOne</span>
+                   <div>
+                     <img src="./img/facebook.svg" alt="Logo febook">
+                     <img src="./img/pinterest.svg" alt="Logo Pinterest">
+                     <img src="./img/twitter.svg" alt="Logo Twitter">
+                     <img src="./img/instagram.svg" alt="Logo Instagram">
+                   </div>
+                 </div>
+                </div>
+          </div>
+        </footer>
+        <!-- fim do rodape  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
